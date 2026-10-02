@@ -1,30 +1,3 @@
-Yes, your structure is already clean. I would keep it like this:
-
-```text
-AutoServe_DBMS/
-│
-├── Documentation/
-│   └── AutoServe_DBMS_Report.pdf
-│
-├── ER Diagram/
-│   └── er.png
-│
-├── Queries/
-│   ├── 01_schema.sql
-│   ├── 02_data.sql
-│   ├── 03_jobCost.sql
-│   ├── 04_mechanic_revenue.sql
-│   ├── 05_above_averageJobs.sql
-│   ├── 06_pending_jobCards.sql
-│   └── 07_integrity_demo.sql
-│
-└── README.md
-```
-
-I would **not add screenshots separately** if your PDF already contains the documented query outputs. Your current structure is enough.
-
-Here is the `README.md` I recommend:
-
 ````markdown
 # AutoServe – Car Service Center Job Card Management System
 
